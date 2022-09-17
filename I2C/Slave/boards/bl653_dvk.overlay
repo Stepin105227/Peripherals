@@ -1,0 +1,17 @@
+
+
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	status = "okay";
+	sda-pin = <26>;
+	scl-pin = <27>;
+	twis_device1:bl653dvk@29 {	
+	status = "okay";    			
+	label = "i2c bl653dvk addr 0x29";	
+	reg = <0x29>;						
+	};
+};	
+
+
+
+	
